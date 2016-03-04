@@ -1,9 +1,19 @@
-layout_spectrum: 0.3835126
-typography_spectrum: 0.7777778
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.9283154
 color:
   saturation: 0.1395213
   brandStrength: 0.09611169
-  lightness: 0.1505376
   rhythmicContrast: 0.5127498
   brandColors:
     - '#F7EDF0'
@@ -11,4 +21,6 @@ color:
     - '#F4AFAB'
     - '#F4EEA9'
     - '#F4F482'
+  lightness: 0.1505376
+layout_spectrum: 0.3835126
 name: St. Josephs Church Bronxville
